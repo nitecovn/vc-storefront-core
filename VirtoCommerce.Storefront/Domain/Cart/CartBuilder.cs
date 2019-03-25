@@ -488,6 +488,7 @@ namespace VirtoCommerce.Storefront.Domain
                 StoreId = store.Id,
                 Language = language,
                 Customer = user,
+                OrganizationId = user.Contact?.OrganizationId,
                 Type = type,
                 IsAnonymous = !user.IsRegisteredUser,
                 CustomerName = user.IsRegisteredUser ? user.UserName : SecurityConstants.AnonymousUsername,

@@ -398,7 +398,8 @@ namespace VirtoCommerce.Storefront.Domain
                 Status = order.Status,
                 StoreId = order.StoreId,
                 StoreName = order.StoreName,
-                SubscriptionNumber = order.SubscriptionNumber
+                SubscriptionNumber = order.SubscriptionNumber,
+                WorkflowId =  order.WorkflowId
             };
 
 
