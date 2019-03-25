@@ -227,5 +227,7 @@ namespace VirtoCommerce.Storefront.Model.Order
         public Money SubTotalDiscountWithTax { get; set; }
         public string SubscriptionNumber { get; set; }
 
+        public string WorkflowId { get; set; }
+
     }
 }
